@@ -6,7 +6,8 @@ import { PickleballHomePage } from '../pages/pbGeneral-page';
 setDefaultTimeout(30 * 1000);
 
 Before(async function (this: CustomWorld) {
-    this.browser = await chromium.launch({ headless: false });
+    this.browser = await chromium.launch({ 
+      headless: process.env.CI ? true : false });
     this.context = await this.browser.newContext();
     this.page = await this.context.newPage();
     this.pickleballHomePage = new PickleballHomePage(this.page);
