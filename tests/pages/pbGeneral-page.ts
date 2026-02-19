@@ -10,6 +10,9 @@ export class PickleballHomePage {
   }
 
   async navigate() {
-    await this.page.goto('https://www.pickleball.com');
+    await this.page.goto('https://www.pickleball.com', {
+      waitUntil: 'domcontentloaded', 
+      timeout: 30000
+  });
   }
 }
