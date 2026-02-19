@@ -2,11 +2,9 @@
 
 As a passionate pickleball player and a dedicated QA tester, I believe every great rally begins with a perfect serve. This repository serves as my QA portfolio, documenting my mission to meticulously plan, design, and execute test cases for Pickleball.com with the same precision I bring to the court.
 
-My test style is very different from the 
-
 ## 📋 Project Scope
 
-his project focuses on a comprehensive, page-by-page analysis and testing of the Pickleball.com website. My process involves systematically breaking down each page and its components to create a thorough testing strategy.
+This project focuses on a comprehensive, page-by-page analysis and testing of the Pickleball.com website. My process involves systematically breaking down each page and its components to create a thorough testing strategy.
 
 ### Methodology
 For each page or major feature, I will perform the following:
@@ -44,7 +42,7 @@ The project is organized to provide a clear and logical view of the testing proc
 ```
 pickball-features-test/
 ├── microapps/               # Modules      
-│   ├── pickleball-com.md
+│   ├── pickleball.md
 │   ├── tournaments.md
     ├── leagues.md
 └── general_features/        # Universal Features              
