@@ -1,7 +1,8 @@
 import { Before, After, Status, setDefaultTimeout } from '@cucumber/cucumber';
 import { chromium } from '@playwright/test';
-import { CustomWorld } from '../world/custom-world';
+import { CustomWorld } from '../steps/custom-world';
 import { PickleballHomePage } from '../pages/pbGeneral-page';
+import { NewsPage } from '../pages/news-page';
 
 setDefaultTimeout(30 * 1000);
 
@@ -12,6 +13,7 @@ Before(async function (this: CustomWorld) {
   this.context = await this.browser.newContext();
   this.page = await this.context.newPage();
   this.pickleballHomePage = new PickleballHomePage(this.page);
+  this.newsPage = new NewsPage(this.page)
 });
 
 After(async function (this: CustomWorld) {
