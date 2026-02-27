@@ -10,6 +10,17 @@
 - hooks.ts
 - custom-world.ts
 
+###Git commands
+- Clone a repository: `git clone <repository-url>`
+- Check the current branch `git branch`
+- Create a new branch `git checkout -b <branch-name>`
+- Switch to an existing branch `git checkout <branch-name>`
+- Stage changes:  `git add <file-name>`add specific file or `git add . ` to add all changes`
+- Commit changes `git commit -m "Your commit message"`
+- Push changes `git push origin <branch-name>`
+- Pull latest changes from remote `git pull origin <branch-name>`
+- Check the status of your branch: `git status`
+
 ###FAQ
 1. What are Hooks?
 - Hooks are special functions that run at specific points in your test lifecycle. 
