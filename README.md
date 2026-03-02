@@ -24,21 +24,21 @@ This project focuses on creating my first automation script from scratch and whi
     * Results
     * And more...
 
-## 📂 Repository Structure
+## Repository Structure
 
 The project is organized to provide a clear and logical view of the testing process.
 
 ```
-pickball-features-test/
-├── microapps/               # Modules      
-│   ├── pickleball.md
-│   ├── tournaments.md
-    ├── leagues.md
-└── general_features/        # Universal Features              
+tests/features
+├── pbGeneral/               # pickleball.com main page      
+│   └── newsPage
+│   │   ├──newsType
+│   │   └── resultsPage
+└── tournamentsPage
+└── leaguesPage/                    
 │   ├── header.md
 │   └── profile.md
-└── bug_reports/             # Documented bugs
-│   ├──
+└── teamLeaguesPage/          
 └── README.md
 ```
 
