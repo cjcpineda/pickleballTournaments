@@ -4,8 +4,6 @@ import { CustomWorld } from '../steps/custom-world';
 import { PickleballHomePage } from '../pages/pbGeneral-page';
 import { NewsPage } from '../pages/news-page';
 
-setDefaultTimeout(30 * 1000);
-
 Before(async function (this: CustomWorld) {
   this.browser = await chromium.launch({ headless: !!process.env.CI });
   this.browser = await chromium.launch({ 
