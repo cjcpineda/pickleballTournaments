@@ -39,4 +39,4 @@ Then('I verify all subcategory tabs work correctly', async function (this: Custo
 });
 //, 'Press', 'PPA', 'UPA', 'MLP'
 //notes: passed when the above is removed because of a popup.
-//check out hooks under "handling cookies or popups"
+//check out hooks under "handling cookies or popups
