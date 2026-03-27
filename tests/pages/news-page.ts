@@ -1,4 +1,4 @@
-import { Page, Locator } from '@playwright/test';
+/*import { Page, Locator } from '@playwright/test';
 
 export class NewsPage {
   private readonly page: Page;
@@ -12,9 +12,11 @@ export class NewsPage {
 
   async navigateToNewsPage() {
     await this.newsTab.click(); //click news tab
+    await this.page.goto('https://www.pickleball.com/news');
   }
 
   async verifyNewsUrl() {
     await this.newsTab.click(); //verify news tab is visible
   }
 }
+*/

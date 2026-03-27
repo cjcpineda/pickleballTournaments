@@ -21,7 +21,7 @@
 - Pull latest changes from remote `git pull origin <branch-name>`
 - Check the status of your branch: `git status`
 
-###FAQ
+###Questions
 1. What are Hooks?
 - Hooks are special functions that run at specific points in your test lifecycle. 
 ````Before each test:

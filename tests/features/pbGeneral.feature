@@ -10,11 +10,6 @@ When user clicks the news tab
 Then user is in the news page
 
 Scenario Outline: Filter news by subcategory
-Given user is in the news page
-When I click on "<newsCategory>" tab
-Then the URL should contain "<newsCategory>"
-
-Examples:
-| newsCategory  |
-| International |
-| Press         |
+Given user navigates to pickleball homepage
+When user clicks the news tab
+Then I verify all subcategory tabs work correctly
