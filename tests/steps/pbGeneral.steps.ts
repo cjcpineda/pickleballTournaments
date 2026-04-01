@@ -2,7 +2,6 @@ import { Given, When, Then } from '@cucumber/cucumber';
 import { expect } from '@playwright/test';
 import { CustomWorld } from '../steps/custom-world';
 import { PickleballHomePage } from '../pages/pbGeneral-page';
-//import { NewsPage } from '../pages/news-page';
 
 //Scenario: Navigating to pickleball.com
 Given('user navigates to pickleball homepage', {timeout:10000}, async function (this: CustomWorld){
